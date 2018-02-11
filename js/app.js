@@ -1,0 +1,2 @@
+// Call Plyr.
+plyr.setup();
