@@ -33,3 +33,17 @@ span { cursor: pointer; }
 
 	p { width: 100%; }
 }
+
+/* Plyr styles */
+.plyr__play-large { background: #ff8200; }
+
+.plyr--video .plyr__controls button:hover { background-color: #ff8200; }
+
+.plyr__volume--display,
+.plyr__progress--played { color: #ff8200; }
+
+.plyr input[type='range']:active::-ms-thumb { background: #ff8200; }
+
+.plyr input[type='range']:active::-moz-range-thumb { background: #ff8200; }
+
+.plyr input[type='range']:active::-webkit-slider-thumb { background: #ff8200; }
