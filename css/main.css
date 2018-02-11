@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+video { width: 100%; }
+
+p {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span { cursor: pointer; }
+
+.highlight { color: #ff8200; }
+
+@media (min-width: 768px) {
+
+	body {
+		padding-top: 40px;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	p { width: 100%; }
+}
